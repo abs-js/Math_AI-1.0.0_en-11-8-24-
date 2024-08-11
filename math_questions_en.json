@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "intent": "integral.calculate",
+      "examples": [
+        "how to calculate the integral of x?",
+        "what is the formula for the definite integral?",
+        "what is an indefinite integral?",
+        "tell me about the integral of a function?",
+        "what are the types of integrals?"
+      ],
+      "responses": [
+        "The integral of x with respect to x is (x²/2) + C, where C is the constant of integration.",
+        "The formula for the definite integral is ∫[a,b] f(x) dx = F(b) - F(a), where F is the antiderivative of f.",
+        "An indefinite integral is a function that describes the area under the curve of a function f(x), without defined limits.",
+        "The integral of a function f(x) is the process of finding a function F(x) whose derivative is f(x).",
+        "There are two main types of integrals: definite and indefinite integrals."
+      ]
+    },
+    {
+      "intent": "trigonometry.sine",
+      "examples": [
+        "what is sine in trigonometry?",
+        "how to calculate the sine of an angle?",
+        "what are the basic trigonometric functions?",
+        "explain tangent to me?",
+        "what is the relationship between sine and cosine?"
+      ],
+      "responses": [
+        "The sine of an angle is the ratio of the length of the opposite side to the hypotenuse in a right triangle.",
+        "The cosine of an angle is the ratio of the length of the adjacent side to the hypotenuse in a right triangle.",
+        "The basic trigonometric functions are sine, cosine, and tangent.",
+        "The tangent of an angle is the ratio of the sine to the cosine of that angle: tan(θ) = sin(θ) / cos(θ).",
+        "The relationship between sine and cosine is given by the identity:\nsin²(θ) + cos²(θ) = 1."
+      ]
+    },
+    {
+      "intent": "algebra.solve",
+      "examples": [
+        "how to solve an algebraic equation?",
+        "what are the properties of algebraic equations?",
+        "what is a linear equation?",
+        "explain quadratic equations.",
+        "what is the Bhaskara formula?"
+      ],
+      "responses": [
+        "To solve an algebraic equation, you must isolate the unknown variable and find its value.",
+        "The properties of algebraic equations include distributive, associative, and commutative properties.",
+        "A linear equation is a first-degree equation that can be expressed in the form ax + b = 0.",
+        "A quadratic equation is a second-degree equation in the form ax² + bx + c = 0.",
+        "The Bhaskara formula is used to solve quadratic equations and is given by:\n x = (-b ± √(b² - 4ac)) / 2a."
+      ]
+    },
+    {
+      "intent": "equations.solve",
+      "examples": [
+        "how to solve an equation?",
+        "what are the types of equations?",
+        "what is a linear equation?",
+        "how to find the roots of an equation?",
+        "explain the quadratic equation."
+      ],
+      "responses": [
+        "To solve an equation, you must manipulate the equation to isolate the unknown variable.",
+        "Types of equations include linear, quadratic, cubic, and polynomial equations.",
+        "A linear equation is an equation that represents a straight line on the Cartesian plane.",
+        "To find the roots of an equation, you must solve the equation to find the values that make the equation true.",
+        "A quadratic equation has the form ax² + bx + c = 0 and can be solved using the Bhaskara formula (x = (-b ± √(b² - 4ac)) / 2a)."
+      ]
+    },
+    {
+      "intent": "sqrt.calculate",
+      "examples": [
+        "how to calculate the square root of a number?",
+        "what is the definition of square root?",
+        "tell me about properties of square roots.",
+        "how to simplify a square root?",
+        "what is the square root of 144?"
+      ],
+      "responses": [
+        "To calculate the square root of a number, you need to find a value that, when multiplied by itself, equals the given number.",
+        "The square root of a number is a value that, when squared, equals the original number.",
+        "Properties of square roots include: √(a*b) = √a * √b and √(a²) = a.",
+        "To simplify a square root, you can factor the number into prime factors and then simplify.",
+        "The square root of 144 is 12."
+      ]
+    },
+    {
+      "intent": "derivative.definition",
+      "examples": [
+        "what is a derivative?",
+        "how to calculate the derivative of a function?",
+        "what are the rules of differentiation?",
+        "what is the product rule in derivatives?",
+        "how to find the derivative of x²?"
+      ],
+      "responses": [
+        "The derivative of a function represents the rate of change of the function with respect to a variable.",
+        "To calculate the derivative of a function, you apply differentiation rules such as the power rule, product rule, and chain rule.",
+        "Some differentiation rules include: power rule, product rule, and chain rule.",
+        "The product rule states that the derivative of the product of two functions is given by: (f*g)' = f'*g + f*g'.",
+        "The derivative of x² is 2x."
+      ]
+    },
+    {
+      "intent": "logarithm.definition",
+      "examples": [
+        "what is a logarithm?",
+        "how to calculate the logarithm of a number?",
+        "what is the base of the common logarithm?",
+        "how to simplify logarithms?",
+        "explain the properties of logarithms."
+      ],
+      "responses": [
+        "A logarithm is the power to which a fixed number, called the base, must be raised to obtain another number.",
+        "To calculate the logarithm of a number, you need to find the base and the power required to get the desired number.",
+        "The base of the common logarithm is 10, and the natural logarithm has base e.",
+        "To simplify logarithms, you can use properties like log(a*b) = log(a) + log(b) and log(a/b) = log(a) - log(b).",
+        "Properties of logarithms include: log(a*b) = log(a) + log(b) and log(a^b) = b*log(a)."
+      ]
+    },
+    {
+      "intent": "ln.definition",
+      "examples": [
+        "what is a natural logarithm?",
+        "how to calculate the natural logarithm of a number?",
+        "what is the base of the natural logarithm?",
+        "how to simplify natural logarithms?",
+        "what are the properties of the natural logarithm?"
+      ],
+      "responses": [
+        "The natural logarithm is a type of logarithm with base e, where e is approximately 2.71828.",
+        "To calculate the natural logarithm of a number, you can use the ln function on a calculator or mathematical software.",
+        "The base of the natural logarithm is the number e, which is approximately 2.71828.",
+        "To simplify natural logarithms, you can use properties similar to those of common logarithms, such as ln(a*b) = ln(a) + ln(b).",
+        "Properties of natural logarithms include: ln(a*b) = ln(a) + ln(b) and ln(a^b) = b*ln(a)."
+      ]
+    },
+    {
+      "intent": "greeting.bye",
+      "examples": [
+        "goodbye",
+        "I’m going to have lunch and will be back",
+        "bye"
+      ],
+      "responses": [
+        "see you!",
+        "okay, see you later (;",
+        "bye!"
+      ]
+    }
+  ]
+}
