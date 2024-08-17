@@ -12,11 +12,10 @@ This way, the necessary packages will be quickly installed (make sure there are 
 
 ### step 2/3: use
 To start using Math_AI, use npm test/start and start asking.<br>
-NOTES:
-    1. If the result of the question is "undefined", it is because the type of question asked has not yet been implemented by AI (it could be a figure of speech, a typo, etc.)
-    2. respect the order of answers: wait for the AI ​​to respond before typing
-    3. alert me in the comments if you hear a bug, and I'll put it in /issues so you can be notified
-
+NOTES:<br>
+    1. If the result of the question is "undefined", it is because the type of question asked has not yet been implemented by AI (it could be a figure of speech, a typo, etc.)<br>
+    2. respect the order of answers: wait for the AI ​​to respond before typing<br>
+    3. alert me in the comments if you hear a bug, and I'll put it in /issues so you can be notified<br>
 ### step 3/3: share
 As mentioned before, create more answers/questions for the JSON file and share it for a better user experience
 
