@@ -1,11 +1,13 @@
 {
-  "name": "a-mia-inan",
+  "name": "math AI",
   "version": "1.0.0",
   "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node index.js",
+    "start": "npm run test",
+    "install": "npm install node-fetch && npm installl node-nlp && npm install readline-sync"
   },
   "keywords": [],
   "author": "",
